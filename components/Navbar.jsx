@@ -45,7 +45,7 @@ const Navbar = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
-      className={`${styles.xPaddings} py-8 relative`}
+      className="sm:px-16 sm:py-[4rem] px-6 py-8 relative"
     >
       <div className="absolute w-[50%] inset-0 gradient-01 z-0 pointer-events-none" />
       <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
