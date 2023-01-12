@@ -80,12 +80,14 @@ const Navbar = () => {
             className="flex flex-col justify-center justify-items-center items-center"
 
           >
-            <motion.a whileHover={{ scale: 1.1 }} variants={itemVariants} href="#" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">Features</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} variants={itemVariants} href="#" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">Pricing</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} variants={itemVariants} href="#" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">Coffe</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} variants={itemVariants} href="#" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">Temp</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} variants={itemVariants} href="#" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">Almost</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} variants={itemVariants} href="#" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">Last</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} onClick={cycleOpen} variants={itemVariants} href="#home" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">Home</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} onClick={cycleOpen} variants={itemVariants} href="#about" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">About</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} onClick={cycleOpen} variants={itemVariants} href="#explore" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">Explore</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} onClick={cycleOpen} variants={itemVariants} href="#started" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">Get Started</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} onClick={cycleOpen} variants={itemVariants} href="#whatsnew" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">What is New</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} onClick={cycleOpen} variants={itemVariants} href="#worldmap" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">World</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} onClick={cycleOpen} variants={itemVariants} href="#insights" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">Insights</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} onClick={cycleOpen} variants={itemVariants} href="#feedback" className="block rounded py-2 px-4 relative font-extrabold text-[20px] text-white hover:bg-gray-500 hover:bg-opacity-50 z-40">Feedback</motion.a>
           </motion.div>
         </motion.aside>
         )}
