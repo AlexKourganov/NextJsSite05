@@ -1,3 +1,27 @@
+# Metaverse Website using NextJs :floppy_disk:
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/52629552947_dd7015cf20_o.png">
+</p>
+
+## Technologies
+
+
+[![My Skills](https://skills.thijs.gg/icons?i=react,nextjs,tailwind,figma)](https://skills.thijs.gg)
+
+
+
+REACT/NEXTJS/TAILWIND/FIGMA
+
+## Summary
+A metaverse website build using React and NextJs, with Tailwind for styling and FramerMotion for transitions.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## LiveLink :satellite:
+[METAVERSE](https://next-js-site05.vercel.app/)
+##
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
